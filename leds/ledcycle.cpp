@@ -67,8 +67,8 @@ int main(int argc, char **argv)
     unsigned int last_mask = 0x0F;
     for (int i=0;i<400;i++) {
 
-        // toggle leds to new pattern
-        gpio.set(HW_PINCTRL_DOUT0_SET, mask^last_mask);
+        // use TOG to toggle leds to new pattern
+        gpio.set(HW_PINCTRL_DOUT0_TOG, mask^last_mask);
 
         // You could eqivalently do this in two calls
         // if you didn't know the previous state of the leds.
