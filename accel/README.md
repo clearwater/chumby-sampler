@@ -8,7 +8,7 @@ from the accelerometer.
 
 Build and Run
 -------------
-Assuming you are using the [chumby-oe](https://github.com/clearwater/chumby-oe] development image, and you have this code on your chumby, you can build and run as follows.
+Assuming you are using the [chumby-oe](https://github.com/clearwater/chumby-oe) development image, and you have this code on your chumby, you can build and run as follows.
 
 ```
 # cd accel
