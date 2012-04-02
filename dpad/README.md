@@ -38,7 +38,7 @@ The output shows which of the switches A through E are closed
 as follows:
 
 ```
-d# ./dpad
+# ./dpad
 dpad: - - - - -
 dpad: - - - - e
 dpad: - - - - -
@@ -50,6 +50,9 @@ dpad: - - - d -
 dpad: - - c - -
 dpad: - - - - -
 ```
+
+Note that the code does NOT run for ever, it exits after a few seconds.
+Change the loop in ```dpad.cpp``` if you want it to run longer.
 
 Schematics
 ----------
