@@ -1,11 +1,11 @@
-leds demo
+dpad demo
 =========
 
 Reads the 5 switches on the joystick dpad at SW400
 using GPIO.  
 
 The joystick has 5 switches A,B,C,D and E, as
-shown in the [datasheet].(http://clearwater.github.com/chumby-oe/resources/ATR0000CE9.pdf).
+shown in the [datasheet](http://clearwater.github.com/chumby-oe/resources/ATR0000CE9.pdf).
 
 On the Chumby Hackers Board these are connected to GPIO pins as follows:
 
