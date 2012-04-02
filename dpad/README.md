@@ -51,8 +51,8 @@ dpad: - - c - -
 dpad: - - - - -
 ```
 
-Note that the code does NOT run for ever, it exits after a few seconds.
-Change the loop in ```dpad.cpp``` if you want it to run longer.
+Note that the code does NOT run for ever, it exits after about a minute.
+Rewrite the loop in ```dpad.cpp``` if you want it to run longer.
 
 Schematics
 ----------
