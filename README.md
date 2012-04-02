@@ -11,3 +11,7 @@ The LED example controls the 4 green LEDs using GPIO.
 accel
 -----
 Configures and reads the accelerometer over i2c.
+
+dpad
+----
+Reads the 5-way joystick switches.
