@@ -36,6 +36,7 @@ cc   dpad.o gpio.o   -o dpad
 
 The output shows which of the switches A through E are closed
 as follows:
+
 ```
 d# ./dpad
 dpad: - - - - -
